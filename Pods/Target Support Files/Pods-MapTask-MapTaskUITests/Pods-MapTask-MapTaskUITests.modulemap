@@ -1,0 +1,6 @@
+framework module Pods_MapTask_MapTaskUITests {
+  umbrella header "Pods-MapTask-MapTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
