@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  MapTask
 //
-//  Created by addevice on 7/29/20.
+//  Created by Sose Yeritsyan on 7/29/20.
 //  Copyright © 2020 addevice.kkk. All rights reserved.
 //
 
