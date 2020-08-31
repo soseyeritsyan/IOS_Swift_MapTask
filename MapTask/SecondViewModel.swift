@@ -2,7 +2,7 @@
 //  SecondViewModel.swift
 //  MapTask
 //
-//  Created by addevice on 7/29/20.
+//  Created by Sose Yeritsyan on 7/29/20.
 //  Copyright © 2020 addevice.kkk. All rights reserved.
 //
 
@@ -22,7 +22,6 @@ class SecondViewModel {
 //    func showLocation(url: String) {
 //        FindLocation.sharedInstance.getLocation(requestURL: url) { (result, error) in
 //            if result != nil {
-//                print("1")
 //                CoreDataManager.sharedManager.insertLocation(location: result!)
 //                self.myModel = result
 //            }
@@ -49,6 +48,7 @@ class SecondViewModel {
                 view.lonLabel.text = String(self.myModel!.longtitude)
                 
             } else if CoreDataManager.sharedManager.getLocation(myLocation: view.lastTappedLocation) != nil {
+                
                 self.myModel = CoreDataManager.sharedManager.getLocation(myLocation: view.lastTappedLocation)!
                 view.timezoneLabel.text = String(self.myModel!.timezone)
                 view.countryLabel.text = self.myModel!.country
@@ -56,7 +56,7 @@ class SecondViewModel {
                 view.latLabel.text = String(self.myModel!.lattitude)
                 view.lonLabel.text = String(self.myModel!.longtitude)
             } else {
-//            print("3")
+                
                 view.timezoneLabel.text = "none"
                 view.countryLabel.text = "none"
                 view.nameLabel.text = "none"
