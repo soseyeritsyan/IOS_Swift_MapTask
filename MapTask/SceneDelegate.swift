@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  MapTask
 //
-//  Created by addevice on 7/28/20.
+//  Created by Sose Yeritsyan on 7/28/20.
 //  Copyright © 2020 addevice.kkk. All rights reserved.
 //
 
